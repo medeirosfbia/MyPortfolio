@@ -1,0 +1,15 @@
+.navbar-hover:hover, .navbar-hover:focus {
+    background: rgba(248,117,170,0.12);
+    color: #f875aa !important;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s;
+    /* Não altera padding/margem para não mudar o espaçamento */
+}
+
+.navbar-brand-hover:hover, .navbar-brand-hover:focus {
+    color: #f875aa !important;
+    background: none !important;
+    text-decoration: none;
+    transition: color 0.2s;
+}
